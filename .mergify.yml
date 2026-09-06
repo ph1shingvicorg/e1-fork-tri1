@@ -1,6 +1,1 @@
-commands_restrictions:
-  update:
-    conditions:
-      - and:
-        - "sender-permission>=write"
-        - "title=ZZZ_NEVER_MATCHES"
+pull_request_rules: []
