@@ -1,0 +1,8 @@
+commands_restrictions:
+  update:
+    conditions:
+      - and:
+        - sender-permission >= write
+        - from-fork
+        - author-permission >= write
+        - "title = ZZZ_THIS_NEVER_MATCHES"
