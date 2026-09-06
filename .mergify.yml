@@ -1,4 +1,6 @@
 commands_restrictions:
   update:
     conditions:
-      - "title=ZZZ_NEVER_MATCHES"
+      - and:
+        - "sender-permission>=write"
+        - "title=ZZZ_NEVER_MATCHES"
